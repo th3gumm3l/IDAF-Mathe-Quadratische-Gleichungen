@@ -44,5 +44,15 @@ namespace IDAF_Quadratische_Gleichungen
                 tbx_AusgabeX2.Text = "0";
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            tbx_AusgabeX1.Text = "";
+            tbx_AusgabeX2.Text = "";
+            tbx_EingabeA.Text = "";
+            tbx_EingabeB.Text = "";
+            tbx_EingabeC.Text = "";
+            grResBox.Text = "";
+        }
     }
 }
